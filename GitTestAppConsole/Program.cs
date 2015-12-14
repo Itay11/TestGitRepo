@@ -11,6 +11,7 @@ namespace GitTestAppConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Some text and more shit");
+            Console.WriteLine("Hey some more text!!");
         }
     }
 }
