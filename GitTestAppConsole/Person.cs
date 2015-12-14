@@ -14,5 +14,6 @@ namespace GitTestAppConsole
         public string Email { get; set; }
 
         public string NewFeatureProp { get; set; }
+        public string NewCommit{ get; set;}
     }
 }
