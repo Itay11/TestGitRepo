@@ -11,6 +11,8 @@ namespace GitTestAppConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Some text and more shit");
+            Person p = new Person() { FirstName = "Itay", LastName = "Tal" };
+            Console.WriteLine(p.FirstName + " " + p.LastName);
         }
     }
 }
